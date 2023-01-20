@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px
+}
+.portfolio{
+    background-color: black;
+    opacity: 0.8;
+    height: 90px;
+    padding: 0px;
+    margin: 0px;
+}
+.firstPart{
+    background-image: url("bg_image_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 910px;
+}
+ .div1{
+   
+    background-color: black;
+    opacity: 1.1;
+    width: 100%;
+    height: 90px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+}
+
+.div1 .div3{
+  margin-left: 100px;
+  padding: 10px;
+
+}
+.div1 .div3 img{
+  border-radius: 100px;
+  padding: 10px;
+  cursor: pointer;
+
+
+}
+.div1 .div4{
+    margin-top: 20px;
+    margin-left: 500px;
+    padding: 10px;
+  }
+  .div1 .div4 a{
+    margin: 10px;
+    padding: 10px;
+    color: rgb(243, 238, 238);
+    text-decoration: none;
+    font-size: 1.2rem;
+    opacity: 0.7;
+  }
+  .div4 a:hover{
+    color: white;
+    opacity: 1;
+  }
+  .div1 .div5 {
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .div1 .div5 a{
+    text-decoration: none;
+    padding: 20px;
+    background-color:rgb(230, 6, 6);
+    color: white;
+    border-radius: 200px;
+
+  }
+
+  /* navber complete */
+
+  .div2{
+    /* background-color: red; */
+    margin-left: 90px;
+   
+    text-align: center;
+    padding: 50px;
+    margin-top: 270px;
+  }
+  .div2 p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .div2 h1{
+    color: white;
+    font-size: 2.4rem;
+  }
+  .div2 h1 span{
+    color: rgb(204, 43, 78);
+    opacity: 0.9;
+  }
+  .div2 button{
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: rgb(233, 208, 199);
+    background-color:crimson;
+    font-weight: bolder;
+  }
+  .div2 button:hover{
+    background-color: black;
+    color: white;
+  }
+  .firstPart:hover #Home{
+    color: rgb(255, 255, 255);
+  }
+
+  /* firstPart complete */
+
+
+  /* secondPart Starts */
+  .secondPart{
+    /* background-color: red; */
+    height: 700px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .secondPart .div11{
+    /* background-color: yellow; */
+    padding: 10px;
+
+  }
+  .secondPart .div13{
+    /* background-color: orange; */
+    border:3px solid rgb(148, 27, 27);
+    border-radius: 10px 30px 50px 10px;
+    /* background-color: rgb(175, 73, 73); */
+    box-shadow: 10px 50px 20px 10px rgb(34, 33, 33);
+    height: 430px;
+    width: 390px;
+    position: relative;
+    /* background-color: darkcyan; */
+  }
+  .secondPart .div14 img{
+    height: 400px;
+    width: 390px;
+    position: absolute;
+    top: 944px;
+    left: 250px;
+    border-radius: 10px 20px 30px 5px;
+    border: 2px solid rgb(194, 6, 6);
+   
+  }
+  .secondPart .div12{
+    /* background-color: blue; */
+    height: 500px;
+    width: 900px;
+    margin-left: 50px;
+    padding: 20px;
+    padding-left: 35px;
+
+  }
+  .secondPart .div12 h1{
+     color: black;
+     font-size: 2.5rem;
+     font-weight: bolder;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .secondPart .div12 h3{
+    color: rgb(235, 8, 8);
+  }
+  .secondPart .div12 p{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .secondPart .div12 ul li{
+    list-style-type: circle;
+    font-size: 1rem;
+  }
+  .secondPart .div12 ul li span{
+    color: red;
+    font-weight: bolder;
+  }
+  .secondPart .div12 button{
+    padding: 15px;
+    padding-right: 23px;
+    padding-left: 23px;
+    border: 1px solid red;
+    cursor: pointer;
+    color: red;
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+  .secondPart .div12 button:hover{
+    background-color: rgb(22, 20, 20);
+    color: white;
+  }
+/* end */
+
+
+.MySkill{
+
+  position: relative;
+  top: 1330px;
+  padding: 10px;
+  text-align: center;
+}
+.MySkill h2{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+}
+
+.MySkill .sec11{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.MySkill .sec11 div{
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-color: green; */
+  width: 30%;
+  text-align: left;
+}
+.Coding ul li{
+  list-style-type: none;
+  margin: 50px;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+}
+.Coding ul li::before{
+  content: '';
+  position:absolute;
+  top: 30px;
+  left: 10px;
+  background-color: aliceblue;
+  width: 100%;
+  height: 20px;
+  border-radius: 1000px;
+  border: 1px solid red;
+}
+.Coding li::after{
+  content: '';
+  position:absolute;
+  top: 31px;
+  left: 11px;
+  background-color: rgb(241, 10, 126);
+  width: 0%;
+  height: 20px;
+  border-radius: 1000px;
+  /* border: 1px solid red; */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  animation-direction:forward;
+}
+.Coding li.Javascript::after{
+  animation-name: Javascript01;
+
+}
+@keyframes Javascript01 {
+  to{
+    width: 70%;
+    background-color: blue;
+  }
+  
+}
+.Coding li.Php::after{
+  animation-name: Php;
+
+}
+@keyframes Php {
+  to{
+    width: 80%;
+    background-color: blue;
+  }
+  
+}
+
+.Coding li.HtmlAndCss::after{
+  animation-name: HtmlAndCss;
+
+}
+@keyframes HtmlAndCss {
+  to{
+    width: 90%;
+    background-color: blue;
+  }
+  
+}
+.Coding li.Python::after{
+  animation-name: Python;
+
+}
+@keyframes Python {
+  to{
+    width: 75%;
+    background-color: blue;
+  }
+  
+}
+  
+
+.Coding li.Java::after{
+  animation-name: Java;
+
+}
+@keyframes Java {
+  to{
+    width: 75%;
+    background-color: blue;
+  }
+  
+}
+
+.Coding li.C::after{
+  animation-name:C;
+
+}
+@keyframes C{
+  to{
+    width: 85%;
+    background-color: blue;
+  }
+  
+}
+  
+
+
+
+
+.Design ul li{
+  list-style-type: none;
+  margin: 50px;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+}
+.Design ul li::before{
+  content: '';
+  position:absolute;
+  top: 30px;
+  left: 10px;
+  background-color: aliceblue;
+  width: 100%;
+  height: 20px;
+  border-radius: 1000px;
+  border: 1px solid red;
+}
+.Design li::after{
+  content: '';
+  position:absolute;
+  top: 31px;
+  left: 11px;
+  background-color: rgb(158, 8, 126);
+  width: 0%;
+  height: 20px;
+  border-radius: 1000px;
+  /* border: 1px solid red; */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  animation-direction:forward;
+}
+
+.Design li.Ui::after{
+  animation-name: Ui;
+
+}
+@keyframes Ui {
+  to{
+    width: 70%;
+    background-color: blue;
+  }
+}
+
+
+
+.Design li.Web::after{
+  animation-name: Web;
+
+}
+@keyframes Web {
+  to{
+    width: 76%;
+    background-color: blue;
+  }
+}
+.Design li.Logo::after{
+  animation-name: Logo;
+
+}
+@keyframes Logo {
+  to{
+    width: 89%;
+    background-color: blue;
+  }
+}
+  /* end to animation */
+
+
+
+
+
+  .divv21{
+    margin-top: 50px;
+    /* background-color: red; */
+    padding: 20px;
+  }
+  .divv21 ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 60px;
+    /* background-color: aqua; */
+    grid-row-gap: 20px;
+  }
+  .divv21 ul li {
+        list-style-type: none;
+  }
+  .divv21 ul li div{
+      margin: 20px;
+      background-color: rgb(235, 221, 223);
+      padding: 40px;
+      height: 400px;
+      text-align: left;
+      border-radius: 10px;
+  }
+  .divv21 ul li div span{
+    background-color: red;
+    width: 100px;
+    display: block;
+    padding: 8px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px 5px 50px 5px;
+  }
